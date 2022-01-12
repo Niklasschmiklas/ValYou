@@ -14,7 +14,7 @@
         }
         .grid {
             display: grid;
-            grid-template-columns: 10vw 20vw 60vw 10vw;
+            grid-template-columns: 10vw 40vw 40vw 10vw;
             grid-template-rows: 380px;
             border: 1px solid red;
             position: relative;
@@ -35,14 +35,17 @@
         .grid-logo {
             display: flex;
             align-self: center;
-            place-self: center;
+            place-self: right;
             width: 200px;
             height: auto;
             position: absolute;
             z-index: 3;
         }
         .text-logo {
-
+            font-size: 100px;
+            align-self: center;
+            place-self: left;
+            position: absolute;
         }
         .header {
             display: grid;
@@ -77,10 +80,15 @@
         }
         .item-header {
             display: grid;
-            grid-template-columns: 5vw 5vw 5vw 5vw;
+            grid-template-columns: 50px 50px 50px 50px 50px;
             grid-template-rows: 10vh;
             place-items: center;
             background-color: transparent;
+            border: 1px solid red;
+        }
+        .menue {
+            font-size: 20px;
+            align-self: center;
         }
     </style>
 
@@ -103,12 +111,13 @@
                 <!-- <img src="/img/valyou_logo_shadow.svg"> -->
             </div>
             <div class="mid-header">
-                <div class="item-header">Home</div>
+                <div class="item-header"><!-- <p class="menue">Home</p> -->1</div>
                 <div class="item-header">2</div>
                 <div class="item-header">3</div>
                 <div class="item-header">4</div>
+                <div class="item-header">5</div>
             </div>
-            <div class="side-header">Center2</div>
+            <div class="side-header">Center</div>
         </div>
     </header>
   </body>
