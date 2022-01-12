@@ -1,4 +1,4 @@
-Deine Mutter stinkt nach Magarine;
+Deine Mutter stinkt nach Ölbad;
 Und VS auch.
 Penis
 Git Hub ist kacke
