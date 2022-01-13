@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
 div {
     /* border: 1px solid red; */
 /*     background-color: chartreuse; */
+}
+p {
+    font-family: 'Josefin Sans', sans-serif;
 }
 h1 {
     font-size: 12px;
@@ -9,7 +15,7 @@ h2 {
 
 }
 h3 {
-
+    font-family: 'Josefin Sans', sans-serif;
 }
 .grid {
     display: grid;
@@ -95,7 +101,8 @@ h3 {
     height: 100%;
 }
 .menue {
-    font-size: 1.5vw;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.8vw;
     font-weight: bold;
     align-self: center;
     font-style: normal;
@@ -147,22 +154,48 @@ h3 {
 }
 .border-leftup {
     background-color: orange;
-    border-radius: 10px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
 }
 .border-rightup {
     background-color: orange;
-    border-radius: 0px 10px 0px 0px;
+    border-radius: 0px 30px 0px 0px;
 }
 .border-rightdown {
     background-color: orange;
-    border-radius: 0px 0px 10px 0px;
+    border-radius: 0px 0px 0px 0px;
 }
 .border-leftdown {
     background-color: orange;
-    border-radius: 0px 0px 0px 10px;
+    border-radius: 0px 0px 0px 30px;
 }
 .event-button {
     display: flex;
     justify-content: flex-end;
     padding-right: 20px;
+}
+.pre-footer {
+    display: grid;
+    grid-template-columns: 10vw 80vw 10vw;
+    grid-template-rows: 150px 150px;
+    background-color: grey;
+}
+.pre-footer-side {
+    background-color: grey;
+}
+.pre-footer-side2 {
+    background-color: white;
+}
+.pre-footer-top {
+    background-color: blue;
+    border-radius: 0px 0px 0px 0px;
+}
+.pre-footer-buttom {
+    background-color: blue;
+    border-radius: 0px 0px 20px 20px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 10vw 23vw 23vw 34vw 10vw;
+    grid-template-rows: 200px 200px;
+    background-color: grey;
 }
