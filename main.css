@@ -181,11 +181,10 @@ h3 {
     display: grid;
     grid-template-columns: 10vw 80vw 10vw;
     grid-template-rows: 150px 150px;
-    background-color: grey;
-
+    background-color: darkgray;
 }
 .pre-footer-side {
-    background-color: grey;
+    background-color: darkgray;
 }
 .pre-footer-side2 {
     background-color: white;
@@ -202,5 +201,5 @@ h3 {
     display: grid;
     grid-template-columns: 10vw 23vw 23vw 34vw 10vw;
     grid-template-rows: 200px 200px;
-    background-color: grey;
+    background-color: darkgray;
 }
