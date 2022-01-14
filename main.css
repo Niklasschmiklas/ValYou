@@ -227,12 +227,13 @@ h3 {
     padding: 10px;
 }
 .footer-text-body {
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: white;
-    place-items: center;
-    align-items: start;
-    text-align: justify;
+    place-items: left;
+    align-items: left;
+    text-align: left;
     width: 34vw;
     padding: 10px;
 }
@@ -245,4 +246,5 @@ h3 {
    color: white;
    font-size: 40px;
    padding-left: 10px;
+   text-align: left;
 }
