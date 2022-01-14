@@ -12,7 +12,7 @@ h1 {
     font-size: 12px;
 }
 h2 {
-
+    font-family: 'Josefin Sans', sans-serif;
 }
 h3 {
     font-family: 'Josefin Sans', sans-serif;
@@ -110,7 +110,7 @@ h3 {
     align-self: center;
     font-style: normal;
 }
-.icon {
+.valyou-icon {
     float: left;
     text-align: center;
     width: 40px;
@@ -123,7 +123,7 @@ h3 {
     /* border: 1px solid blue; */
 }
 .main-spacer{
-    background-color: orange;
+    background-color: #faa56a;
 }
 .main-frame {
     display: grid;
@@ -148,28 +148,28 @@ h3 {
     padding: 30px;
 }
 .content-frame {
-    background-color: orange;
+    background-color: #faa56a;
 }
 .side-frame {
     background-color: transparent;
 }
 .border-frame {
-    background-color: orange;
+    background-color: #faa56a;
 }
 .border-leftup {
-    background-color: orange;
+    background-color: #faa56a;
     border-radius: 0px 0px 0px 0px;
 }
 .border-rightup {
-    background-color: orange;
+    background-color: #faa56a;
     border-radius: 0px 30px 0px 0px;
 }
 .border-rightdown {
-    background-color: orange;
+    background-color: #faa56a;
     border-radius: 0px 0px 0px 0px;
 }
 .border-leftdown {
-    background-color: orange;
+    background-color: #faa56a;
     border-radius: 0px 0px 0px 30px;
 }
 .event-button {
@@ -177,29 +177,72 @@ h3 {
     justify-content: flex-end;
     padding-right: 20px;
 }
+.gotoevent {
+    background-color: #42a6a4;
+}
 .pre-footer {
     display: grid;
     grid-template-columns: 10vw 80vw 10vw;
     grid-template-rows: 150px 150px;
-    background-color: darkgray;
+    background-color: #1c1c1c;
 }
 .pre-footer-side {
-    background-color: darkgray;
+    background-color: #1c1c1c;
 }
 .pre-footer-side2 {
     background-color: white;
 }
 .pre-footer-top {
-    background-color: blue;
-    border-radius: 0px 0px 0px 0px;
+    background-color: #faa56a;
+    border-radius: 20px 20px 0px 0px;
+}
+.pre-footer-back {
+    background-color: white;
 }
 .pre-footer-buttom {
-    background-color: blue;
+    background-color: #42a6a4;
     border-radius: 0px 0px 20px 20px;
+}
+.motivation {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 6vw;
+    font-weight: bold;
+    text-align: center;
 }
 .footer {
     display: grid;
     grid-template-columns: 10vw 23vw 23vw 34vw 10vw;
-    grid-template-rows: 200px 200px;
-    background-color: darkgray;
+    grid-template-rows: 120px 200px;
+    background-color: #1c1c1c;
+    border: 1px solid white;
+}
+.footer-text-head {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    place-items: center;
+    align-items: start;
+    text-align: justify;
+    width: 34vw;
+    padding: 10px;
+}
+.footer-text-body {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    place-items: center;
+    align-items: start;
+    text-align: justify;
+    width: 34vw;
+    padding: 10px;
+}
+.line {
+    text-align: left;
+    width: 100%;
+    border-width: 2px;
+}
+.icon {
+   color: white;
+   font-size: 40px;
+   padding-left: 10px;
 }
