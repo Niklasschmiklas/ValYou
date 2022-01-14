@@ -215,6 +215,7 @@ h3 {
     grid-template-rows: 120px 200px;
     background-color: #1c1c1c;
     border: 1px solid white;
+    text-align: left;
 }
 .footer-text-head {
     font-size: 40px;
@@ -226,25 +227,16 @@ h3 {
     width: 34vw;
     padding: 10px;
 }
-.footer-text-body {
+.footer-text-buttom {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     color: white;
-    place-items: left;
-    align-items: left;
-    text-align: left;
-    width: 34vw;
-    padding: 10px;
+    font-style: normal;
+    width: 15vw;
 }
 .line {
     text-align: left;
     width: 100%;
     border-width: 2px;
-}
-.icon {
-   color: white;
-   font-size: 40px;
-   padding-left: 10px;
-   text-align: left;
 }
